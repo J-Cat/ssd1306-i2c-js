@@ -84,12 +84,15 @@ NAN_METHOD(SetFont)
             ssd1306SetFont((FONT_INFO *)&ubuntuMono_12ptFontInfo);
             break;
         case 3:
-            ssd1306SetFont((FONT_INFO *)&ubuntuMono_16ptFontInfo);
+            ssd1306SetFont((FONT_INFO *)&ubuntuMono_14ptFontInfo);
             break;
         case 4:
-            ssd1306SetFont((FONT_INFO *)&ubuntuMono_24ptFontInfo);
+            ssd1306SetFont((FONT_INFO *)&ubuntuMono_16ptFontInfo);
             break;
         case 5:
+            ssd1306SetFont((FONT_INFO *)&ubuntuMono_24ptFontInfo);
+            break;
+        case 6:
             ssd1306SetFont((FONT_INFO *)&ubuntuMono_48ptFontInfo);
             break;
         }
